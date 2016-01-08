@@ -24,7 +24,7 @@ module.exports = (robot) ->
     ]
 
   new cron '0 0 15 * * 1-5', () =>
-    robot.messageRoom 'ex-hubot-test', 'おやつの時間ぺこ'
+    robot.messageRoom 'pecobot', 'おやつの時間ぺこ'
   , null, true, 'Asia/Tokyo'
 
   # robot.hear /badger/i, (res) ->
