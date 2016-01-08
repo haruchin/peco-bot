@@ -27,7 +27,7 @@ module.exports = (robot) ->
     msg.send "＠・×・＠ つ"
 
   robot.hear /お代わり$|おかわり$/i, (msg) ->
-    msg.send "＠*^ｪ^*＠ つ"
+    msg.send "⊆ ＠*^ｪ^*＠"
 
 
   new cron '0 0 15 * * 1-5', () =>
