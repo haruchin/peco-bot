@@ -22,6 +22,9 @@ module.exports = (robot) ->
         "無理しちゃだめぺこ？",
         "つらいときには美味しいものを食べるぺこ！"
     ]
+  
+  robot.hear /お手$/i, (msg) ->
+    msg.send "＠・×・＠ つ"
 
   new cron '0 0 15 * * 1-5', () =>
     robot.messageRoom 'pecobot', 'おやつの時間ぺこ'
